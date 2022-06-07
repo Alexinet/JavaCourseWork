@@ -1,0 +1,103 @@
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.control{
+    display:flex;
+    justify-content:space-around;
+}
+
+.signs{
+    display: block;
+    width: 60vh;
+    height: auto;
+}
+
+.sign{
+    display: flex;
+    margin-top: 2%;
+    padding: 3%;
+    width: 100%;
+    height: 18vh;
+    flex-direction: column;
+    border: 2px solid rgb(184, 207, 237);
+    border-radius: 2px;
+}
+
+
+.oldonesigns{
+    display: flex;
+    flex: 0 0 auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;width: 60%;justify-content: center;
+}
+
+.oldoneprofile{
+    display: flex;width: 40%;justify-content: center;
+}
+
+/* Full-width input fields */
+.chan{
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+@media (max-width: 1000px) {
+    .control{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .get100{
+        width: 90%;
+    }
+}
